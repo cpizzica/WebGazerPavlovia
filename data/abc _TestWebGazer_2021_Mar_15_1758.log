@@ -1,0 +1,374 @@
+0.5223 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.6565 	INFO 	Loaded monitor calibration from ['2020_04_16 13:16']
+10.4439 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe3f11f3ac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe3f0c00a58>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.4444 	EXP 	window1: mouseVisible = True
+10.4444 	EXP 	window1: recordFrameIntervals = False
+10.6097 	EXP 	window1: recordFrameIntervals = True
+10.7934 	DEBUG 	Screen (0) actual frame rate measured at 60.03
+10.7935 	EXP 	window1: recordFrameIntervals = False
+11.3881 	EXP 	Created StartTask = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='StartTask', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.8643 	EXP 	Created distance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='distance', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.8654 	EXP 	Created input_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='input_text', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.8749 	EXP 	Created line = Line(__class__=<class 'psychopy.visual.line.Line'>, autoDraw=False, autoLog=True, closeShape=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='line', opacity=0.5, ori=0.0, pos=array([ 0.  , -0.15]), size=array([1., 1.]), units='height', vertices=array([[-0.15,  0.  ],
+       [ 0.15,  0.  ]]), win=Window(...), windingRule=None)
+11.8879 	EXP 	Created text_top = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_top', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+11.8912 	EXP 	Created text_bottom = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_bottom', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='Press the space bar when done', units='height', win=Window(...), wrapWidth=1.5)
+11.9404 	EXP 	Created card_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='bank-1300155_640.png', interpolate=True, mask=None, maskParams=None, name='card_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+11.9444 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press the <spacebar> to begin calibration', units='height', win=Window(...), wrapWidth=1)
+12.9117 	EXP 	Created polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+12.9180 	EXP 	Created txt_wait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='txt_wait', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.4100 	EXP 	StartTask: autoDraw = True
+14.9337 	DATA 	Keypress: space
+14.9595 	EXP 	StartTask: autoDraw = False
+14.9595 	EXP 	input_text: text = ''
+14.9595 	EXP 	distance: autoDraw = True
+14.9595 	EXP 	input_text: autoDraw = True
+14.9595 	EXP 	line: autoDraw = True
+16.3953 	DATA 	Keypress: 3
+16.4118 	EXP 	input_text: text = '3'
+16.4443 	DATA 	Keypress: 2
+16.4594 	EXP 	input_text: text = '32'
+17.3288 	DATA 	Keypress: return
+17.3597 	EXP 	distance: autoDraw = False
+17.3597 	EXP 	input_text: autoDraw = False
+17.3597 	EXP 	line: autoDraw = False
+17.3597 	EXP 	text_top: autoDraw = True
+17.3597 	EXP 	text_bottom: autoDraw = True
+17.3597 	EXP 	card_image: autoDraw = True
+17.3597 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.3761 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.3930 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4097 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4260 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4430 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4604 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4762 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.4935 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5098 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5265 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5429 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5596 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5763 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.5930 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6094 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6263 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6430 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6603 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6765 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.6936 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7096 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7261 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7430 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7596 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7763 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.7931 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8096 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8270 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8438 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8605 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8770 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.8936 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9096 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9270 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9429 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9596 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9768 	EXP 	card_image: size = array([0.428 , 0.2699])
+17.9936 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0103 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0270 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0430 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0595 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0761 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.0928 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1097 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1261 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1436 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1597 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1771 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.1931 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2097 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2271 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2430 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2602 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2763 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.2934 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3094 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3272 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3429 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3594 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3764 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.3928 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4095 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4271 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4430 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4605 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4763 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.4930 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5097 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5270 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5429 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5603 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5764 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.5940 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.6095 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.6145 	DATA 	Keypress: left
+18.6270 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.6603 	EXP 	card_image: size = array([0.428 , 0.2699])
+18.6603 	EXP 	text_bottom: text = 'X Scale = 0.0499 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+18.6603 	EXP 	card_image: size = [0.427144, 0.2699]
+18.6763 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.6937 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7096 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7260 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7429 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7592 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7760 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.7929 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.8095 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.8259 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.8306 	DATA 	Keypress: left
+18.8598 	EXP 	card_image: size = array([0.427144, 0.2699  ])
+18.8598 	EXP 	text_bottom: text = 'X Scale = 0.0494 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+18.8598 	EXP 	card_image: size = [0.422864, 0.2699]
+18.8762 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.8937 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9094 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9270 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9428 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9603 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9763 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+18.9929 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0104 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0263 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0433 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0595 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0763 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.0931 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1095 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1272 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1439 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1603 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1772 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.1940 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2105 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2266 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2439 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2599 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2765 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.2929 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.3098 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.3265 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.3431 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.3445 	DATA 	Keypress: left
+19.3766 	EXP 	card_image: size = array([0.422864, 0.2699  ])
+19.3766 	EXP 	text_bottom: text = 'X Scale = 0.0493 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+19.3766 	EXP 	card_image: size = [0.422008, 0.2699]
+19.3932 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4098 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4265 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4437 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4599 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4762 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.4939 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5105 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5272 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5438 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5599 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5656 	DATA 	Keypress: left
+19.5932 	EXP 	card_image: size = array([0.422008, 0.2699  ])
+19.5932 	EXP 	text_bottom: text = 'X Scale = 0.0488 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+19.5932 	EXP 	card_image: size = [0.41772800000000004, 0.2699]
+19.6097 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.6265 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.6432 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.6598 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.6770 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.6935 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.7105 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.7264 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.7285 	DATA 	Keypress: left
+19.7600 	EXP 	card_image: size = array([0.417728, 0.2699  ])
+19.7600 	EXP 	text_bottom: text = 'X Scale = 0.0483 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+19.7600 	EXP 	card_image: size = [0.41344800000000004, 0.2699]
+19.7766 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.7932 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8096 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8263 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8430 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8605 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8763 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.8937 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.9099 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.9263 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.9321 	DATA 	Keypress: left
+19.9599 	EXP 	card_image: size = array([0.413448, 0.2699  ])
+19.9599 	EXP 	text_bottom: text = 'X Scale = 0.0478 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+19.9599 	EXP 	card_image: size = [0.40916800000000003, 0.2699]
+19.9766 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+19.9939 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0099 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0273 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0431 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0598 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0765 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0937 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.0950 	DATA 	Keypress: left
+20.1273 	EXP 	card_image: size = array([0.409168, 0.2699  ])
+20.1273 	EXP 	text_bottom: text = 'X Scale = 0.0473 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+20.1273 	EXP 	card_image: size = [0.404888, 0.2699]
+20.1439 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.1604 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.1764 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.1937 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2105 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2266 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2438 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2597 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2770 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.2807 	DATA 	Keypress: left
+20.3097 	EXP 	card_image: size = array([0.404888, 0.2699  ])
+20.3097 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the <spacebar> when done'
+20.3097 	EXP 	card_image: size = [0.400608, 0.2699]
+20.3271 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.3430 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.3593 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.3772 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.3932 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4104 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4273 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4432 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4605 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4762 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.4929 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5105 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5265 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5439 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5599 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5764 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.5780 	DATA 	Keypress: down
+20.6099 	EXP 	card_image: size = array([0.400608, 0.2699  ])
+20.6099 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.0495 height units per cm\nScreen height = 20.2 cm\n\nPress the <spacebar> when done'
+20.6099 	EXP 	card_image: size = [0.400608, 0.267201]
+20.6270 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.6432 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.6603 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.6761 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.6937 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7106 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7265 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7438 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7606 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7763 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7936 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.7994 	DATA 	Keypress: down
+20.8272 	EXP 	card_image: size = array([0.400608, 0.267201])
+20.8272 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.049 height units per cm\nScreen height = 20.4 cm\n\nPress the <spacebar> when done'
+20.8272 	EXP 	card_image: size = [0.400608, 0.264502]
+20.8427 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.8603 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.8764 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.8930 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.9098 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.9265 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.9432 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.9448 	DATA 	Keypress: down
+20.9766 	EXP 	card_image: size = array([0.400608, 0.264502])
+20.9766 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.0485 height units per cm\nScreen height = 20.6 cm\n\nPress the <spacebar> when done'
+20.9766 	EXP 	card_image: size = [0.400608, 0.261803]
+20.9931 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0098 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0265 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0432 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0602 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0770 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0935 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.0988 	DATA 	Keypress: down
+21.1269 	EXP 	card_image: size = array([0.400608, 0.261803])
+21.1269 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.048 height units per cm\nScreen height = 20.8 cm\n\nPress the <spacebar> when done'
+21.1269 	EXP 	card_image: size = [0.400608, 0.259104]
+21.1432 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.1598 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.1765 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.1931 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2098 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2265 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2431 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2596 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2761 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.2778 	DATA 	Keypress: down
+21.3099 	EXP 	card_image: size = array([0.400608, 0.259104])
+21.3099 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.0475 height units per cm\nScreen height = 21.1 cm\n\nPress the <spacebar> when done'
+21.3099 	EXP 	card_image: size = [0.400608, 0.256405]
+21.3265 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.3430 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.3593 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.3771 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.3931 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4105 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4265 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4432 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4595 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4645 	DATA 	Keypress: down
+21.4933 	EXP 	card_image: size = array([0.400608, 0.256405])
+21.4933 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.047 height units per cm\nScreen height = 21.3 cm\n\nPress the <spacebar> when done'
+21.4933 	EXP 	card_image: size = [0.400608, 0.253706]
+21.5103 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.5258 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.5433 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.5605 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.5765 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.5935 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6099 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6259 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6431 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6594 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6765 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.6938 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7103 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7265 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7438 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7595 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7762 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.7933 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8098 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8265 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8439 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8592 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8766 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.8929 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9104 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9265 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9439 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9604 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9765 	EXP 	card_image: size = array([0.400608, 0.253706])
+21.9939 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0099 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0265 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0431 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0598 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0763 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0929 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.0956 	DATA 	Keypress: space
+22.1097 	EXP 	card_image: size = array([0.400608, 0.253706])
+22.1097 	EXP 	text_bottom: text = 'X Scale = 0.0468 height units per cm\nY Scale = 0.047 height units per cm\nScreen height = 21.3 cm\n\nPress the <spacebar> when done'
+22.1097 	EXP 	card_image: size = [0.400608, 0.253706]
+22.1097 	EXP 	text_top: autoDraw = False
+22.1097 	EXP 	text_bottom: autoDraw = False
+22.1097 	EXP 	card_image: autoDraw = False
+22.1097 	EXP 	text: autoDraw = True
+25.5662 	DATA 	Keypress: space
+25.5763 	EXP 	text: autoDraw = False
+27.6446 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+27.6450 	EXP 	New trial (rep=0, index=0): None
+27.6594 	DEBUG 	Read excel file with openpyxl: gazeConditions.xlsx
+27.6599 	EXP 	Imported gazeConditions.xlsx as conditions, 5 conditions, 2 params
+27.6603 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+27.6606 	EXP 	New trial (rep=0, index=0): {'xpos': 0, 'ypos': 0}
+27.6652 	DATA 	Keypress: space
+27.6764 	EXP 	polygon: pos = array([0., 0.])
+27.6764 	EXP 	polygon: autoDraw = True
+28.8461 	DATA 	Keypress: escape
+29.2112 	EXP 	window1: mouseVisible = True
+29.2113 	DEBUG 	Saving data for TestWebGazer ExperimentHandler
+29.2123 	INFO 	saved data to /Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/abc _TestWebGazer_2021_Mar_15_1758.psydat
+29.2133 	INFO 	saved data to '/Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/abc _TestWebGazer_2021_Mar_15_1758.csv'

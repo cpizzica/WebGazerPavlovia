@@ -1,0 +1,183 @@
+0.3221 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.5273 	INFO 	Loaded monitor calibration from ['2020_04_16 13:16']
+7.3169 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f83e95895f8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f83ea02b630>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.3171 	EXP 	window1: mouseVisible = True
+7.3172 	EXP 	window1: recordFrameIntervals = False
+7.4833 	EXP 	window1: recordFrameIntervals = True
+7.6662 	DEBUG 	Screen (0) actual frame rate measured at 60.20
+7.6662 	EXP 	window1: recordFrameIntervals = False
+8.2553 	EXP 	Created StartTask = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='StartTask', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7681 	EXP 	Created text_top = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_top', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+8.7713 	EXP 	Created text_bottom = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_bottom', opacity=1, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='Press the space bar when done', units='height', win=Window(...), wrapWidth=1.5)
+8.8058 	EXP 	Created card_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='bank-1300155_640.png', interpolate=True, mask=None, maskParams=None, name='card_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+9.3065 	EXP 	Created polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+9.3130 	EXP 	Created txt_wait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='txt_wait', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.8331 	EXP 	StartTask: autoDraw = True
+10.4945 	DATA 	Keypress: space
+10.5165 	EXP 	StartTask: autoDraw = False
+10.5165 	EXP 	text_top: autoDraw = True
+10.5165 	EXP 	text_bottom: autoDraw = True
+10.5165 	EXP 	card_image: autoDraw = True
+12.2511 	DATA 	Keypress: right
+12.2832 	EXP 	text_bottom: text = 'X Scale = 0.0501 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+12.2832 	EXP 	card_image: size = [0.428856, 0.2699]
+12.7868 	DATA 	Keypress: right
+12.8172 	EXP 	text_bottom: text = 'X Scale = 0.0502 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+12.8172 	EXP 	card_image: size = [0.42971200000000004, 0.2699]
+13.0336 	DATA 	Keypress: right
+13.0532 	EXP 	text_bottom: text = 'X Scale = 0.0507 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+13.0532 	EXP 	card_image: size = [0.43399200000000004, 0.2699]
+13.2195 	DATA 	Keypress: right
+13.2496 	EXP 	text_bottom: text = 'X Scale = 0.0512 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+13.2496 	EXP 	card_image: size = [0.43827200000000005, 0.2699]
+13.4004 	DATA 	Keypress: right
+13.4190 	EXP 	text_bottom: text = 'X Scale = 0.0517 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+13.4190 	EXP 	card_image: size = [0.44255200000000006, 0.2699]
+13.5386 	DATA 	Keypress: right
+13.5693 	EXP 	text_bottom: text = 'X Scale = 0.0522 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+13.5693 	EXP 	card_image: size = [0.44683200000000006, 0.2699]
+13.8189 	DATA 	Keypress: left
+13.8506 	EXP 	text_bottom: text = 'X Scale = 0.0517 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+13.8506 	EXP 	card_image: size = [0.44255200000000006, 0.2699]
+14.9717 	DATA 	Keypress: left
+15.0006 	EXP 	text_bottom: text = 'X Scale = 0.0516 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.0006 	EXP 	card_image: size = [0.44169600000000003, 0.2699]
+15.1856 	DATA 	Keypress: left
+15.2171 	EXP 	text_bottom: text = 'X Scale = 0.0511 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.2171 	EXP 	card_image: size = [0.437416, 0.2699]
+15.3545 	DATA 	Keypress: left
+15.3842 	EXP 	text_bottom: text = 'X Scale = 0.0506 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.3842 	EXP 	card_image: size = [0.433136, 0.2699]
+15.5184 	DATA 	Keypress: left
+15.5508 	EXP 	text_bottom: text = 'X Scale = 0.0501 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.5508 	EXP 	card_image: size = [0.428856, 0.2699]
+15.7051 	DATA 	Keypress: left
+15.7336 	EXP 	text_bottom: text = 'X Scale = 0.0496 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.7336 	EXP 	card_image: size = [0.424576, 0.2699]
+15.8512 	DATA 	Keypress: left
+15.8844 	EXP 	text_bottom: text = 'X Scale = 0.0491 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+15.8844 	EXP 	card_image: size = [0.420296, 0.2699]
+16.8864 	DATA 	Keypress: left
+16.9162 	EXP 	text_bottom: text = 'X Scale = 0.049 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+16.9162 	EXP 	card_image: size = [0.41944000000000004, 0.2699]
+17.1030 	DATA 	Keypress: left
+17.1358 	EXP 	text_bottom: text = 'X Scale = 0.0485 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+17.1358 	EXP 	card_image: size = [0.41516000000000003, 0.2699]
+17.2895 	DATA 	Keypress: left
+17.3188 	EXP 	text_bottom: text = 'X Scale = 0.048 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+17.3188 	EXP 	card_image: size = [0.41088, 0.2699]
+17.4503 	DATA 	Keypress: left
+17.4685 	EXP 	text_bottom: text = 'X Scale = 0.0475 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+17.4685 	EXP 	card_image: size = [0.4066, 0.2699]
+17.6365 	DATA 	Keypress: left
+17.6661 	EXP 	text_bottom: text = 'X Scale = 0.047 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+17.6661 	EXP 	card_image: size = [0.40232, 0.2699]
+17.8172 	DATA 	Keypress: left
+17.8351 	EXP 	text_bottom: text = 'X Scale = 0.0465 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+17.8351 	EXP 	card_image: size = [0.39804, 0.2699]
+18.0025 	DATA 	Keypress: left
+18.0330 	EXP 	text_bottom: text = 'X Scale = 0.046 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.0330 	EXP 	card_image: size = [0.39376, 0.2699]
+18.1836 	DATA 	Keypress: left
+18.2025 	EXP 	text_bottom: text = 'X Scale = 0.0455 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.2025 	EXP 	card_image: size = [0.38948, 0.2699]
+18.3694 	DATA 	Keypress: left
+18.3994 	EXP 	text_bottom: text = 'X Scale = 0.045 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.3994 	EXP 	card_image: size = [0.3852, 0.2699]
+18.5668 	DATA 	Keypress: left
+18.5857 	EXP 	text_bottom: text = 'X Scale = 0.0445 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.5857 	EXP 	card_image: size = [0.38092, 0.2699]
+18.7530 	DATA 	Keypress: left
+18.7827 	EXP 	text_bottom: text = 'X Scale = 0.044 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.7827 	EXP 	card_image: size = [0.37664, 0.2699]
+18.9193 	DATA 	Keypress: left
+18.9511 	EXP 	text_bottom: text = 'X Scale = 0.0435 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+18.9511 	EXP 	card_image: size = [0.37235999999999997, 0.2699]
+19.1199 	DATA 	Keypress: left
+19.1496 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.05 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+19.1496 	EXP 	card_image: size = [0.36808, 0.2699]
+19.3665 	DATA 	Keypress: up
+19.3852 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0505 height units per cm\nScreen height = 19.8 cm\n\nPress the space bar when done'
+19.3852 	EXP 	card_image: size = [0.36808, 0.272599]
+19.5694 	DATA 	Keypress: up
+19.5996 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.051 height units per cm\nScreen height = 19.6 cm\n\nPress the space bar when done'
+19.5996 	EXP 	card_image: size = [0.36808, 0.275298]
+19.7668 	DATA 	Keypress: up
+19.7856 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0515 height units per cm\nScreen height = 19.4 cm\n\nPress the space bar when done'
+19.7856 	EXP 	card_image: size = [0.36808, 0.277997]
+20.0168 	DATA 	Keypress: down
+20.0353 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.051 height units per cm\nScreen height = 19.6 cm\n\nPress the space bar when done'
+20.0353 	EXP 	card_image: size = [0.36808, 0.275298]
+21.0361 	DATA 	Keypress: down
+21.0660 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0509 height units per cm\nScreen height = 19.6 cm\n\nPress the space bar when done'
+21.0660 	EXP 	card_image: size = [0.36808, 0.2747582]
+21.1999 	DATA 	Keypress: down
+21.2184 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0504 height units per cm\nScreen height = 19.8 cm\n\nPress the space bar when done'
+21.2184 	EXP 	card_image: size = [0.36808, 0.2720592]
+21.3862 	DATA 	Keypress: down
+21.4161 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0499 height units per cm\nScreen height = 20.0 cm\n\nPress the space bar when done'
+21.4161 	EXP 	card_image: size = [0.36808, 0.2693602]
+21.5529 	DATA 	Keypress: down
+21.5846 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0494 height units per cm\nScreen height = 20.2 cm\n\nPress the space bar when done'
+21.5846 	EXP 	card_image: size = [0.36808, 0.2666612]
+21.7216 	DATA 	Keypress: down
+21.7516 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0489 height units per cm\nScreen height = 20.4 cm\n\nPress the space bar when done'
+21.7516 	EXP 	card_image: size = [0.36808, 0.2639622]
+21.9001 	DATA 	Keypress: down
+21.9186 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0484 height units per cm\nScreen height = 20.7 cm\n\nPress the space bar when done'
+21.9186 	EXP 	card_image: size = [0.36808, 0.2612632]
+22.0869 	DATA 	Keypress: down
+22.1162 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0479 height units per cm\nScreen height = 20.9 cm\n\nPress the space bar when done'
+22.1162 	EXP 	card_image: size = [0.36808, 0.25856419999999997]
+22.2502 	DATA 	Keypress: down
+22.2693 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0474 height units per cm\nScreen height = 21.1 cm\n\nPress the space bar when done'
+22.2693 	EXP 	card_image: size = [0.36808, 0.25586519999999996]
+22.4194 	DATA 	Keypress: down
+22.4496 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0469 height units per cm\nScreen height = 21.3 cm\n\nPress the space bar when done'
+22.4496 	EXP 	card_image: size = [0.36808, 0.25316619999999995]
+22.5837 	DATA 	Keypress: down
+22.6019 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0464 height units per cm\nScreen height = 21.6 cm\n\nPress the space bar when done'
+22.6019 	EXP 	card_image: size = [0.36808, 0.25046719999999995]
+22.7692 	DATA 	Keypress: down
+22.7997 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0459 height units per cm\nScreen height = 21.8 cm\n\nPress the space bar when done'
+22.7997 	EXP 	card_image: size = [0.36808, 0.2477682]
+22.9334 	DATA 	Keypress: down
+22.9515 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0454 height units per cm\nScreen height = 22.0 cm\n\nPress the space bar when done'
+22.9515 	EXP 	card_image: size = [0.36808, 0.24506920000000001]
+23.1029 	DATA 	Keypress: down
+23.1325 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0449 height units per cm\nScreen height = 22.3 cm\n\nPress the space bar when done'
+23.1325 	EXP 	card_image: size = [0.36808, 0.2423702]
+23.2666 	DATA 	Keypress: down
+23.2850 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0444 height units per cm\nScreen height = 22.5 cm\n\nPress the space bar when done'
+23.2850 	EXP 	card_image: size = [0.36808, 0.2396712]
+23.4527 	DATA 	Keypress: down
+23.4826 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0439 height units per cm\nScreen height = 22.8 cm\n\nPress the space bar when done'
+23.4826 	EXP 	card_image: size = [0.36808, 0.2369722]
+23.6335 	DATA 	Keypress: down
+23.6518 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0434 height units per cm\nScreen height = 23.0 cm\n\nPress the space bar when done'
+23.6518 	EXP 	card_image: size = [0.36808, 0.2342732]
+23.8192 	DATA 	Keypress: down
+23.8494 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0429 height units per cm\nScreen height = 23.3 cm\n\nPress the space bar when done'
+23.8494 	EXP 	card_image: size = [0.36808, 0.23157419999999998]
+24.0170 	DATA 	Keypress: down
+24.0353 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0424 height units per cm\nScreen height = 23.6 cm\n\nPress the space bar when done'
+24.0353 	EXP 	card_image: size = [0.36808, 0.2288752]
+24.2358 	DATA 	Keypress: down
+24.2659 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0419 height units per cm\nScreen height = 23.9 cm\n\nPress the space bar when done'
+24.2659 	EXP 	card_image: size = [0.36808, 0.2261762]
+25.3834 	DATA 	Keypress: right
+25.4019 	EXP 	text_bottom: text = 'X Scale = 0.0431 height units per cm, Y Scale = 0.0419 height units per cm\nScreen height = 23.9 cm\n\nPress the space bar when done'
+25.4019 	EXP 	card_image: size = [0.36893600000000004, 0.2261762]
+25.9000 	DATA 	Keypress: left
+25.9185 	EXP 	text_bottom: text = 'X Scale = 0.043 height units per cm, Y Scale = 0.0419 height units per cm\nScreen height = 23.9 cm\n\nPress the space bar when done'
+25.9185 	EXP 	card_image: size = [0.36808, 0.2261762]
+26.2025 	DATA 	Keypress: left
+26.2325 	EXP 	text_bottom: text = 'X Scale = 0.0425 height units per cm, Y Scale = 0.0419 height units per cm\nScreen height = 23.9 cm\n\nPress the space bar when done'
+26.2325 	EXP 	card_image: size = [0.36380000000000007, 0.2261762]
+70.8006 	DATA 	Keypress: escape
+70.8156 	EXP 	text_bottom: text = 'X Scale = 0.0425 height units per cm, Y Scale = 0.0419 height units per cm\nScreen height = 23.9 cm\n\nPress the space bar when done'
+70.8156 	EXP 	card_image: size = [0.36380000000000007, 0.2261762]
+71.1743 	EXP 	window1: mouseVisible = True
+71.1744 	DEBUG 	Saving data for TestWebGazer ExperimentHandler
+71.1761 	INFO 	saved data to /Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/_TestWebGazer_2021_Mar_15_1358.psydat
+71.1768 	INFO 	saved data to '/Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/_TestWebGazer_2021_Mar_15_1358.csv'

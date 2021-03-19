@@ -1,0 +1,57 @@
+0.2853 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.4406 	INFO 	Loaded monitor calibration from ['2020_04_16 13:16']
+7.1976 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff9369f0a90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff9368cf5c0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1979 	EXP 	window1: mouseVisible = True
+7.1979 	EXP 	window1: recordFrameIntervals = False
+7.3636 	EXP 	window1: recordFrameIntervals = True
+7.5472 	DEBUG 	Screen (0) actual frame rate measured at 60.23
+7.5473 	EXP 	window1: recordFrameIntervals = False
+8.0868 	EXP 	Created StartTask = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='StartTask', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5606 	EXP 	Created distance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='distance', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5617 	EXP 	Created input_distance = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='input_distance', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.5639 	EXP 	Created line_distance = Line(__class__=<class 'psychopy.visual.line.Line'>, autoDraw=False, autoLog=True, closeShape=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='line_distance', opacity=0.5, ori=0.0, pos=array([ 0.  , -0.15]), size=array([1., 1.]), units='height', vertices=array([[-0.15,  0.  ],
+       [ 0.15,  0.  ]]), win=Window(...), windingRule=None)
+8.5706 	EXP 	Created height = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='height', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5714 	EXP 	Created input_height = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='input_height', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.5724 	EXP 	Created line_height = Line(__class__=<class 'psychopy.visual.line.Line'>, autoDraw=False, autoLog=True, closeShape=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='line_height', opacity=0.5, ori=0.0, pos=array([ 0.  , -0.15]), size=array([1., 1.]), units='height', vertices=array([[-0.15,  0.  ],
+       [ 0.15,  0.  ]]), win=Window(...), windingRule=None)
+8.5801 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.5063 	EXP 	Created polygon = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1, -1, -1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+9.5114 	EXP 	Created txt_wait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='txt_wait', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.9980 	EXP 	StartTask: autoDraw = True
+11.3141 	DATA 	Keypress: space
+11.3469 	EXP 	StartTask: autoDraw = False
+11.3469 	EXP 	input_distance: text = ''
+11.3469 	EXP 	distance: autoDraw = True
+11.3469 	EXP 	input_distance: autoDraw = True
+11.3469 	EXP 	line_distance: autoDraw = True
+12.2484 	DATA 	Keypress: 4
+12.2642 	EXP 	input_distance: text = '4'
+13.2726 	DATA 	Keypress: 4
+13.2978 	EXP 	input_distance: text = '44'
+13.8492 	DATA 	Keypress: semicolon
+13.8507 	DATA 	Keypress: period
+13.8653 	EXP 	input_distance: text = '44.'
+14.2856 	DATA 	Keypress: 3
+14.3140 	EXP 	input_distance: text = '44.3'
+14.8154 	DATA 	Keypress: return
+14.8308 	EXP 	distance: autoDraw = False
+14.8308 	EXP 	input_distance: autoDraw = False
+14.8308 	EXP 	line_distance: autoDraw = False
+14.8308 	EXP 	input_height: text = ''
+14.8308 	EXP 	height: autoDraw = True
+14.8308 	EXP 	input_height: autoDraw = True
+14.8308 	EXP 	line_height: autoDraw = True
+15.9520 	DATA 	Keypress: 3
+15.9807 	EXP 	input_height: text = '3'
+16.1017 	DATA 	Keypress: 3
+16.1158 	EXP 	input_height: text = '33'
+16.2658 	DATA 	Keypress: period
+16.4982 	DATA 	Keypress: 2
+16.5132 	EXP 	input_height: text = '332'
+17.0820 	DATA 	Keypress: period
+20.1026 	DATA 	Keypress: escape
+20.4649 	EXP 	window1: mouseVisible = True
+20.4650 	DEBUG 	Saving data for TestWebGazer ExperimentHandler
+20.4656 	INFO 	saved data to /Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/_TestWebGazer_2021_Mar_16_1207.psydat
+20.4662 	INFO 	saved data to '/Users/jigold/GoldWorks/Mirror_jigold/Projects/pupilClassroom/TestWebGazer/data/_TestWebGazer_2021_Mar_16_1207.csv'
